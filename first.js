@@ -6,5 +6,6 @@ const { chromium } = require('playwright'); // Or 'chromium' or 'webkit'.
 
     await page.goto('https://google.com');
 
+    //closing browser
     await browser.close();
 })();
